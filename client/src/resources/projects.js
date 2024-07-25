@@ -13,7 +13,7 @@ export const projects = [
     },
     {
         id: 2,
-        title: "PayPal Network Topology",
+        title: "Network Topology",
         image: paypal_proj_img,
         description: "Developed full stack network topology application to optimize detection of network faults.",
         skills: ["React", "Node.js", "JavaScript", "Golang", "Docker", "Kubernetes"],

@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 
 function Home() {
   return (
-    <div className="px-32 sm:px-5 overflow-x-hidden">
+    <div className="px-32 md:px-16 sm:px-5 overflow-x-hidden">
         <Header page="intro"/>
         <Intro/>
         <Socials/>

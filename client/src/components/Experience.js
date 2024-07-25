@@ -9,7 +9,7 @@ function Experience() {
         <div className='py-10'>
             <SectionTitle title="Experience"/>
             <div className='flex py-10 gap-20 sm:gap-10 sm:flex-col'>
-                <div className='flex flex-col justify-between gap-10 sm:gap-5 border-l-2 border-secondary sm:border-l-0 sm:border-t-2 sm:flex-row sm:overflow-scroll sm:w-full'>
+                <div className='flex flex-col justify-between gap-10 w-96 sm:gap-5 border-l-2 border-secondary sm:border-l-0 sm:border-t-2 sm:flex-row sm:overflow-scroll sm:w-full'>
                     {experience.map((elem, idx) => (
                         <div onClick={() => setSelectedExp(idx)} className='cursor-pointer'>
                             <h1 className={`text-xl sm:text-base px-5 ${selectedExp === idx 
@@ -19,10 +19,10 @@ function Experience() {
                         </div>
                     ))}
                 </div>
-                <div className='flex flex-col gap-5 min-w-[1000px]'>
+                <div className='flex flex-col gap-5'>
                     <h1 className='text-primary text-2xl sm:text-base'>{experience[selectedExp].title}</h1>
                     <h1 className='text-secondary text-xl sm:text-base'>{experience[selectedExp].period}</h1>
-                    <p className='text-xl py-5 w-full sm:py-2 sm:text-base sm:w-1/2'>{experience[selectedExp].description}</p>
+                    <p className='text-xl py-5 sm:py-2 sm:text-base'>{experience[selectedExp].description}</p>
                 </div>
             </div>
         </div>

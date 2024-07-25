@@ -12,8 +12,11 @@ module.exports = {
       }
     },
     screens: {
-      'lg': {'max': '1023px'},
+      'lg': {'max': '1440px'},
       // => @media (max-width: 1023px) { ... }
+
+      'md' : {'max': '960px'},
+      // => @media (max-width: 768px) { ... }
 
       'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }

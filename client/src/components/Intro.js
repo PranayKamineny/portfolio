@@ -9,10 +9,8 @@ function Intro() {
 
     return (
       <div className="px-5 py-5">
-        <div className="flex gap-10 py-10 sm:flex-col sm:items-center">
-            <div className="h-48 w-80 sm:h-48 sm:w-48 border-double border-8 border-black">
-                <img className="h-full w-full" src={logo} alt="[Picture of me]"/>
-            </div>
+        <div className="flex gap-10 py-10 md:flex-col sm:flex-col sm:items-center">
+            <img className="h-48 w-48 md:h-32 md:w-32" src={logo} alt="[Picture of me]"/>
             <div className="flex flex-col gap-5 py-5 sm:py-0">
                 <p className="text-xl sm:text-base">
                     Welcome to my page! I'm Pranay, an ECE Master's student at Georgia Tech studying ML.
