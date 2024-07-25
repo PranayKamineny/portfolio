@@ -7,7 +7,7 @@ function Projects() {
     const [selectedProj, setSelectedProj] = useState(0);
 
     return (
-        <div>
+        <div className='py-10 sm:py-5'>
             <SectionTitle title="Projects"/>
             <div className='flex py-10 gap-20 sm:gap-10 sm:flex-col sm:items-center'>
                     <div className='flex flex-col justify-between gap-10 sm:gap-5 border-l-2 border-secondary sm:border-l-0 sm:border-t-2 sm:flex-row sm:overflow-scroll sm:w-full'>
