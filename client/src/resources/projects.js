@@ -5,11 +5,11 @@ import pcb_img from "../images/pcb_img.jpg"
 export const projects = [
     {
         id: 1,
-        title: "PCB Defect Localization",
-        image: pcb_img,
-        description: "Used a U-Net architecture to detect and localize defects on printed circuit boards (PCBs).",
-        skills: ["Python", "Neural Networks", "Image Processing"],
-        link: "https://colab.research.google.com/drive/19sTM_hrFNS-npI94X92kqXAJDTzbrmZv?usp=sharing"
+        title: "Dual-Core MIPS CPU",
+        image: mips_img,
+        description: "Designed a dual-core CPU in Verilog capable of executing MIPS instructions. Consisted of datapath, controller, ALU, etc.",
+        skills: ["Verilog, SystemVerilog, Computer Architecture"],
+        link: "https://github.com/PranayKamineny/dual-core-mips"
     },
     {
         id: 2,
@@ -21,10 +21,10 @@ export const projects = [
     },
     {
         id: 3,
-        title: "Dual-Core MIPS CPU",
-        image: mips_img,
-        description: "Designed a dual-core CPU in Verilog capable of executing MIPS instructions. Consisted of datapath, controller, ALU, etc.",
-        skills: ["Verilog, SystemVerilog, Computer Architecture"],
-        link: "https://github.com/PranayKamineny/dual-core-mips"
+        title: "PCB Defect Localization",
+        image: pcb_img,
+        description: "Used a U-Net architecture to detect and localize defects on printed circuit boards (PCBs).",
+        skills: ["Python", "Neural Networks", "Image Processing"],
+        link: "https://colab.research.google.com/drive/19sTM_hrFNS-npI94X92kqXAJDTzbrmZv?usp=sharing"
     },
 ]
