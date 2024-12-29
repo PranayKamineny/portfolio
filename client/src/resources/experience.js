@@ -6,7 +6,7 @@ export const experience = [
         company: "CPSec Lab",
         title: "Graduate Research Assistant",
         period: "October 2024 - Present",
-        description: "Developing Intrusion Detection System (IDS) for CAN network security on Hyundai Vehicles. Simulated network with multiple ARM MCUs programmed with C++ that periodically send CAN messages to eachother. Implementing IDS with C and Verilog on an FPGA and debugging with oscilloscope and digital logic analyzer. "
+        description: "Developing Intrusion Detection System (IDS) for CAN network security on Hyundai Vehicles. Simulated network with multiple ARM microcontrollers programmed with C++ that periodically send CAN messages to eachother. Implementing IDS with C and Verilog on a Xilinx Pynq Z2 SoC and FPGA and debugging with oscilloscope and digital logic analyzer. "
     },
     {
         id: 2,
